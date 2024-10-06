@@ -9,9 +9,6 @@ This is a Laravel-based API project for managing job recommendations.The project
 - [Environment Variables](#environment-variables)
 - [Running Migrations and Seeders](#running-migrations-and-seeders)
 - [API Endpoints](#api-endpoints)
-- [Authentication](#authentication)
-- [Usage](#usage)
-- [License](#license)
 
 
 Follow the instructions below to set up and run the project locally.
@@ -28,7 +25,6 @@ Follow the instructions below to set up and run the project locally.
    ```bash
    git clone https://github.com/mihir1313/job-recommendation-service.git
    cd job-recommendation-service
-   
 
 2. **Install Composer:**
    ```bash
@@ -62,13 +58,13 @@ Follow the instructions below to set up and run the project locally.
 8. **Seed the database:**
      ```bash
     php artisan db:seed
-9.**Serve the application:**
-   ```bash
+9. **Serve the application:**
+     ```bash
     php artisan serve
+10. **API Endpoints:**
+   ```bash
 
-### API Endpoints (Protected)
-
-Below are the API endpoints for managing todos. Each endpoint requires user authentication via Laravel Sanctum.
+Below are the API endpoints for job recommendations, requiring an API key for access:
 
 | **Method** | **Endpoint**                       | **Description**                            |
 |------------|------------------------------------|--------------------------------------------|
