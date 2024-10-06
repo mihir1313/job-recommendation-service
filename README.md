@@ -27,8 +27,8 @@ Follow the instructions below to set up and run the project locally.
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/mihir1313/todo-apis.git
-   cd todo-apis
+   git clone https://github.com/mihir1313/job-recommendation-service.git
+   cd job-recommendation-service
    
 
 2. **Install Composer:**
@@ -46,6 +46,8 @@ Follow the instructions below to set up and run the project locally.
     APP_NAME="Job Recommendation API"
     APP_URL=http://localhost:8000
 
+    API_SECRET_TOKEN=MY_SECRET_TOKEN
+     
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
     DB_PORT=3306
@@ -69,7 +71,7 @@ Follow the instructions below to set up and run the project locally.
 
 Below are the API endpoints for managing todos. Each endpoint requires user authentication via Laravel Sanctum.
 
-| **Method** | **Endpoint**          | **Description**                            |
-|------------|-----------------------|--------------------------------------------|
-| `GET`      | `/api/todos`          | Get job recommendations for a specific user|
+| **Method** | **Endpoint**                       | **Description**                            |
+|------------|------------------------------------|--------------------------------------------|
+| `GET`      | `/api/recommendations/{userId}`    | Get job recommendations for a specific user|
 
