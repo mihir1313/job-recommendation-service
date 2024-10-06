@@ -1,4 +1,4 @@
-# Laravel Todo API
+# JOB RECOMMENDATION SERVICE
 
 This is a Laravel-based API project for managing job recommendations.The project uses Laravel Sanctum for API.
 
@@ -21,7 +21,6 @@ Follow the instructions below to set up and run the project locally.
 - Composer
 - MySQL or any other database
 - Laravel >= 9
-- Node.js and npm (if using frontend assets)
 
 ### Installation
 
